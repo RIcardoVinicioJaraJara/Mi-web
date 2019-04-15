@@ -5,3 +5,20 @@
     font-style: oblique;
     font-weight: bold;
 }
+
+header{
+    width: 99%;
+    height: 150px;
+    border: 10px solid green;
+    background-image: url("../images/portada.jpg");
+    }
+
+img{
+        max-width: 80%;
+        height: auto;
+        text-align: center;
+    }
+
+body{
+    background-image: url("..//images/portada.jpg")
+}
