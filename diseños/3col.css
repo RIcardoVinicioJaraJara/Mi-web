@@ -59,3 +59,16 @@ button {
 #div4{
     width: 97%;
 }
+
+.divcol2{
+    width: 38%;
+    float: left;
+    background-color: darkmagenta;
+}
+
+.divcol3{
+    width: 37%;
+    float: left;
+    background-image: url(../images/mis.jpg)
+}
+
