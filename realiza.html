@@ -4,7 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="keywords" content="Como se realiza un libro" />
-    <title>Pacari Chocolate</title>
+    <link href="diseños/3col.css" rel="stylesheet" type="text/css" />
+    <link href="diseños/reglas.css" rel="stylesheet" type="text/css" />
+    <link href="diseños/2col.css" rel="stylesheet" type="text/css" />
+
+    <title>LIBRO</title>
     <style>
         table,
         th,
@@ -17,9 +21,9 @@
 
 <body>
     <header>
-        <img src="images/portada.jpg" alt="">
+        <p id=portada>LIBROS</p>
     </header>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="Index.html">PRINCIPAL: LIBORS</a></li>
             <li><a href="mejores.html">LOS MEJORES LIBROS</a></li>
@@ -29,50 +33,51 @@
             <li><a href="mislibros.html">MIS LIBROS</a></li>
         </ul>
     </nav>
+    <div>
+        <section>
+            <article>
+                <h4>Cosas que debe tener un buen libro</h4>
+                <table style="width:100%">
+                    <tr>
+                        <th rowspan="2">Porsentaje</th>
+                        <th colspan="2">Descrifcion</th>
+                    </tr>
+                    <tr>
+                        <th>Depende del autor</th>
+                        <th>Obligatorio</th>
 
-    <section>
-        <article>
-            <h4>Cosas que debe tener un buen libro</h4>
-            <table style="width:100%">
-                <tr>
-                    <th rowspan="2">Porsentaje</th>
-                    <th colspan="2">Descrifcion</th>
-                </tr>
-                <tr>
-                    <th>Depende del autor</th>
-                    <th>Obligatorio</th>
+                    </tr>
+                    <tr>
+                        <th>100% Ortografia</th>
+                        <td>Caracteristico del autor</td>
+                        <td>Entendible del profesor</td>
+                    </tr>
+                    <tr>
+                        <th>10% ISBN</th>
+                        <td>Ayuda a ser vendido</td>
+                        <td>100%</td>
+                    </tr>
+                    <tr>
 
-                </tr>
-                <tr>
-                    <th>100% Ortografia</th>
-                    <td>Caracteristico del autor</td>
-                    <td>Entendible del profesor</td>
-                </tr>
-                <tr>
-                    <th>10% ISBN</th>
-                    <td>Ayuda a ser vendido</td>
-                    <td>100%</td>
-                </tr>
-                <tr>
-
-                    <td colspan="3"> El precio varia sengun los criticos y las ventas y ediciones.</td>
-                </tr>
+                        <td colspan="3"> El precio varia sengun los criticos y las ventas y ediciones.</td>
+                    </tr>
 
 
-            </table>
-            <h4>Como se hace un libro</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cs1djRnD7mc" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </article>
-        <aside>
-            <h4>Proceso</h4>
-            <ul>
-                <img src="images/comosee.jpg" alt="">
-            </ul>
+                </table>
+                <h4>Como se hace un libro</h4>
+                <iframe src="https://www.youtube.com/embed/Cs1djRnD7mc" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </article>
+            <aside>
+                <h4>Proceso</h4>
+                <ul>
+                    <img src="images/comosee.jpg" alt="">
+                </ul>
 
-        </aside>
-    </section>
+            </aside>
+        </section>
+    </div>
     <footer>
         RICARDO VINICIO JARA JARA. &#8226; Universidad Politecnica Salesiana &#8226;
         e-mail: <a href="mailto:rjaraj@est.ups.edu.ec"> jcanaru@est.ups.edu.ec</a>
