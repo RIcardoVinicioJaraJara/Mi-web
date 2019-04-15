@@ -1,3 +1,7 @@
 #portada{
-    
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
 }
