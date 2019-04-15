@@ -3,15 +3,18 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="Pacari" />
-    <title>Pacari Chocolate</title>
+    <meta name="keywords" content="LIBROS, LIBRO" />
+    <link href="diseños/3col.css" rel="stylesheet" type="text/css" />
+    <link href="diseños/reglas.css" rel="stylesheet" type="text/css" />
+    <link href="diseños/2col.css" rel="stylesheet" type="text/css" />
+    <title>LIBROS</title>
 </head>
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="">
+        <p id=portada>LIBROS</p>
     </header>
-    <nav>
+    <nav class="menu">
         <ul>
             <li><a href="Index.html">PRINCIPAL: LIBORS</a></li>
             <li><a href="mejores.html">LOS MEJORES LIBROS</a></li>
@@ -23,46 +26,75 @@
     </nav>
 
     <section>
-        <header>
+
+        <div class="div3">
+            <article>
+                <h4 id=crea>Crea tu libro</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/N4LcRmgxyrw" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div id="div4">
+                    <form action="/my-handling-form-page" method="post">
+                        <div id="div4">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" />
+                        </div>
+                        <div id="div4">
+                            <label for="mail">correo:</label>
+                            <input type="email" id="mail" />
+                        </div>
+                        <div id="div4">
+                            <label for="msg">Mensaje:</label>
+                            <textarea id="msg"></textarea>
+                        </div id="div4">
+
+                        <div class="button">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </article>
+
+            <article>
+                <h4 id=digital>DIGITALISMO</h4>
+                <p>Los libros que se han hecho recientemente ya están en formato digital y solo es cuestión de
+                    convertirlos
+                    en el formato deseado como ePub o Mobi para que esté disponible como eBook para las diferentes
+                    plataformas, pero en el caso de libros impresos que no tienen su versión digital existen dos formas
+                    de
+                    digitalizarlos:
+
+                    El primero y más antiguo es por medio de la transcripción, que puede ser un poco tedioso ya que
+                    alguien
+                    tiene que escribir de forma manual letra por letra hasta pasar el libro completo.
+                    El segundo método es utilizar un software llamado OCR (Optical Character Recognition por sus siglas
+                    en
+                    inglés). Para utilizar este software es necesario primero escanear el libro y después pasarlo por
+                    este
+                    software. Existen impresoras sencillas y profesionales que te permiten hacer esto directamente, es
+                    decir, al momento de escanear las páginas automáticamente las pasa por el OCR para extraer el texto.
+                    Este método no es exacto y requiere de trabajo editorial en donde se hacen varias correcciones.
+                    En el caso de imágenes la única opción es escanear y dependiendo de la calidad que se sea necesario,
+                    es
+                    recomendable retocarlas ya que pueden aparecer con los puntos de impresión.</p>
+                <img src="images/difital.jpg" alt="">
+            </article>
+
+            <article>
+                <h4 id=quees> ¿Qué es un libro digital?</h4>
+                <p>es cualquier texto almacenado en formato digital. Como tal, para leer esos libros son necesarios los
+                    programas denominados lectores, que pueden estar integrados en los ordenadores, teléfonos móviles o
+                    lo
+                    más reciente, lectores específicos basados en la tinta electrónica. Para nosotros ahí empieza lo
+                    interesante y lo que nos ocupará buena parte de este especial.</p>
+
+            </article>
+        </div>
+        <header id="menu2">
             <a href="digital.html#crea">Crea tu libro <br> </a>
             <a href="digital.html#digital"> DIGITALISMO <br> </a>
             <a href="digital.html#quees"> ¿Qué es un libro digital? <br></a>
         </header>
-        <article>
-            <h4 id=crea>Crea tu libro</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/N4LcRmgxyrw" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-
-        </article>
-
-        <article>
-            <h4 id=digital>DIGITALISMO</h4>
-            <p>Los libros que se han hecho recientemente ya están en formato digital y solo es cuestión de convertirlos
-                en el formato deseado como ePub o Mobi para que esté disponible como eBook para las diferentes
-                plataformas, pero en el caso de libros impresos que no tienen su versión digital existen dos formas de
-                digitalizarlos:
-
-                El primero y más antiguo es por medio de la transcripción, que puede ser un poco tedioso ya que alguien
-                tiene que escribir de forma manual letra por letra hasta pasar el libro completo.
-                El segundo método es utilizar un software llamado OCR (Optical Character Recognition por sus siglas en
-                inglés). Para utilizar este software es necesario primero escanear el libro y después pasarlo por este
-                software. Existen impresoras sencillas y profesionales que te permiten hacer esto directamente, es
-                decir, al momento de escanear las páginas automáticamente las pasa por el OCR para extraer el texto.
-                Este método no es exacto y requiere de trabajo editorial en donde se hacen varias correcciones.
-                En el caso de imágenes la única opción es escanear y dependiendo de la calidad que se sea necesario, es
-                recomendable retocarlas ya que pueden aparecer con los puntos de impresión.</p>
-            <img src="images/difital.jpg" alt="">
-        </article>
-
-        <article>
-            <h4 id=quees> ¿Qué es un libro digital?</h4>
-            <p>es cualquier texto almacenado en formato digital. Como tal, para leer esos libros son necesarios los
-                programas denominados lectores, que pueden estar integrados en los ordenadores, teléfonos móviles o lo
-                más reciente, lectores específicos basados en la tinta electrónica. Para nosotros ahí empieza lo
-                interesante y lo que nos ocupará buena parte de este especial.</p>
-
-        </article>
 
     </section>
 
