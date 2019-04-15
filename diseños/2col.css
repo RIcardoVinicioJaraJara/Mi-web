@@ -13,3 +13,10 @@ div{
     border: 10px solid rgb(8, 224, 196);
     background-color: rgb(129, 151, 76);
 }
+
+footer{
+    float: left;
+    width: 99%;
+    border: 10px solid rgb(28, 4, 248);
+    height: auto;
+}

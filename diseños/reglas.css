@@ -13,12 +13,20 @@ header{
     background-image: url("../images/portada.jpg");
     }
 
-img{
-        max-width: 80%;
+div img{
+        max-width: 100%;
         height: auto;
-        text-align: center;
     }
 
 body{
     background-image: url("..//images/portada.jpg")
+}
+
+div h4{
+    text-align: center;
+    border:5px solid rgb(0, 255, 128);
+}
+div p{
+    text-align: justify;
+    border: 5px double salmon;
 }
